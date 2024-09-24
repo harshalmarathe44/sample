@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>MSME Report</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <style>
+        #myList {
+            display: none;
+            /* Initially hide the list */
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .accordion-body ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+        }
+        .accordion-body ul li {
+            background-color: #e9ecef; /* Light gray background for items */
+            margin: 5px 0; /* Space between items */
+            padding: 10px;
+            border-radius: 4px;
+            text-align: left;
+            background-color:#ffc451 ;
+            transition: background-color 0.3s;
+        }
+        .accordion-body ul li:hover {
+            background-color: #000; /* Darker gray on hover */
+            color: #ffc451;
+        }
+    </style>
+    <script>
+        function toggleList() {
+            const list = document.getElementById("myList");
+            list.style.display = list.style.display === "none" ? "block" : "none";
+        }
+    </script>
+    <!-- =======================================================
+  * Template Name: MSME Report
+  * Template URL: https://bootstrapmade.com/MSME Report-free-multipurpose-html-bootstrap-template/
+  * Updated: Aug 15 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="sitename">MSME Report</h1>
+                <span>.</span>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li>
+                        <a href="#hero" class="active">Home<br /></a>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="index.html#about">Get Started</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+            <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+
+            <div class="container">
+                <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-xl-6 col-lg-8">
+                        <h2>Powerful Report Solutions With MSME Report<span>.</span></h2>
+                        <p>We are team of talented chartered accountants & ex-bankers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-6 order-2 order-lg-1 content">
+                        <h3>Who We Are ?</h3>
+                        <p class="fst-italic">
+                            A team of chartered accountants & ex-bankers with 12+ years of
+                            experience in banking and finance.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>We provide customised and accurate project reports for bank
+                                    financing. These are not software generated which are not
+                                    accepted in banks.
+                                </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Providing precise reports for loans as per banking
+                                    norms.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Hassle free process for the borrower & banks.</span>
+                            </li>
+                        </ul>
+                        <h3>Why Choose Us ?</h3>
+                        <ul>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>12+ years experienced team of CAs and ex-bankers.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Timely & accurate delivery of services</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2-all"></i>
+                                <span>Free consultation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About Section -->
+
+        <!-- Clients Section -->
+        <section id="clients" class="clients section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Clients Section -->
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Services</h2>
+                <p>Check our Services</p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4 accordion " id="accordionExample">
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Project Report for Term Loans
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>100% tailor made as per project’s requirements</li>
+                                        <li>100% as per Bank Guidelines</li>
+                                        <li>Accurate Calculations</li>
+                                        <li>Detailed Financials Working Sheet</li>
+                                        <li>Detailed Profile Summary</li>
+                                        <li>Delivery within 48 Hours</li>
+                                        <li>Profitability Statement & Balance Sheet for upto 7 Years </li>
+                                        <li>Acceptable to Bank, NBFC, Govt.</li>
+                                        <li>DSCR</li>
+                                        <li>BEP Analysis</li>
+                                        <li>Ratios Calculation</li>
+                                        <li>Cash Flow Statement</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    CMA Report
+                                </button>
+                            </h2>
+                            <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+
+                                        <li>100% tailor made as per project’s requirements</li>
+                                        <li>100% as per Bank Guidelines</li>
+                                        <li>Accurate Calculations</li>
+                                        <li>Unlimited Edits</li>
+                                        <li>Maximum Permissible Bank Finance (MBPF) Calculations</li>
+                                        <li>Profitability Statement & Balance Sheet for upto 7 Years</li>
+                                        <li>Ratios Calculation</li>
+                                        <li>Delivery in 2 Days</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                    Project reports for government schemes Mudra, PMEGP, CMEGP, MOFPI etc
+                                </button>
+                            </h2>
+                            <div id="collapseOne3" class="accordion-collapse collapse" aria-labelledby="headingOne3"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+
+                                        <li>100% customised as per subsidy scheme requirements</li>
+                                        <li>100% as per Bank & Government Guidelines</li>
+                                        <li>Pre-discussed with Loan sanctioning authority</li>
+                                        <li>100% tailor made as per project’s requirements</li>
+                                        <li>Accurate Calculations</li>
+                                        <li>Detailed Financials Working Sheet</li>
+                                        <li>Detailed Profile Summary</li>
+                                        <li>Delivery within 48 Hours</li>
+                                        <li>Profitability Statement & Balance Sheet for upto 7 Years </li>
+                                        <li>Acceptable to Bank, NBFC, Govt.</li>
+                                        <li>DSCR</li>
+                                        <li>BEP Analysis</li>
+                                        <li>Ratios Calculation</li>
+                                        <li>Cash Flow Statement</li>
+                                        <li>Other Important Parameters </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                    Projected Balance Sheet & Profit and Loss for Bank loans.
+                                </button>
+                            </h2>
+                            <div id="collapseOne4" class="accordion-collapse collapse" aria-labelledby="headingOne4"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+
+                                        <li>Projections as per loan requirement.</li>
+                                        <li>Projections of up to 7 years</li>
+                                        <li>In line with previous year actual financials. </li>
+                                        <li>Delivery in 48 hours</li>
+                                        <li>Unlimited edits</li>
+                                        <li>Assistance in Communication with bankers.</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                    Bank loans
+                                </button>
+                            </h2>
+                            <div id="collapseOne5" class="accordion-collapse collapse" aria-labelledby="headingOne5"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+
+                                        <li>Preliminary discussion regarding loan type & amount as per requirement </li>
+                                        <li>Analysis of credit report of borrower/co-borrower (CIBIL/EQUIFAX/CRIF)</li>
+                                        <li>Identification of 3 banks as per requirement.</li>
+                                        <li>Documentation as per bank checklist.</li>
+                                        <li>Step by solving of queries by banks during sanction process.</li>
+                                        <li>Loan sanction.</li>
+                                        <li>Fulfilment of sanction conditions and documentation.</li>
+                                        <li>Loan disbursement </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos=" fade-up" data-aos-delay="100">
+
+                        <div class="accordion-item service-item position-relative">
+                            <div class="icon">
+                                <i class="bi bi-broadcast"></i>
+                            </div>
+                            <h2 class="accordion-header" id="headingOne6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                    Subsidy Schemes Availment
+                                </button>
+                            </h2>
+                            <div id="collapseOne6" class="accordion-collapse collapse" aria-labelledby="headingOne6"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+
+                                        <li> discussion about business type and expenditure</li>
+                                        <li>Discovery of eligible subsidy schemes as per above</li>
+                                        <li>Documents preparation and submission as per checklist. </li>
+                                        <li>Follow-up with officials & query solving.</li>
+                                        <li>Subsidy approval letter.</li>
+                                        <li>Fulfilment of conditions</li>
+                                        <li>Subsidy disbursement.</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                </div>
+            </div>
+        </section>
+        <!-- /Services Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>Check our Portfolio</p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Reports</li>
+                        <li data-filter=".filter-product">Loans</li>
+                        <li data-filter=".filter-branding">Subsidy</li>
+                    </ul>
+                    <!-- End Portfolio Filters -->
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Reports 1</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Subsidy 1</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
+                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Loan 1</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Reports 2</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Subsidy 2</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2"
+                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Loan 2</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
+                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Reports 3</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Subsidy 3</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
+                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Loan 3</h4>
+                                <p>Lorem ipsum, dolor sit</p>
+                                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
+                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+                    </div>
+                    <!-- End Portfolio Container -->
+                </div>
+            </div>
+        </section>
+        <!-- /Portfolio Section -->
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4 align-items-center justify-content-between">
+                    <div class="col-lg-5">
+                        <img src="assets/img/stats-img.jpg" alt="" class="img-fluid" />
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3 class="fw-bold fs-2 mb-3">
+                            Process Flow & Happy Customers
+                        </h3>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Step 1: Understanding Client Requirements
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We begin by conducting a detailed assessment of the client's financial needs, understanding their business model and funding requirements. This allows us to tailor our reports to match the exact nature of the loan or credit facility being sought.                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Step 2: Data Collection and Analysis
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Our team works closely with the client to gather all necessary financial data, including historical financial statements, business plans, and projections. Our team analyses the financial data thoroughly to identify key metrics and risk factors that banks focus on during the approval process.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Step 3: Report Preparation
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Leveraging our 12+ years of experience, we prepare precise and well-structured reports. Our reports are not generated by software but are manually crafted to ensure they reflect the intricacies of each unique business case. This approach guarantees higher acceptance rates from banks.
+                                </div>
+                              </div>                              
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Step 4: Aligning with Banking Norms
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Our reports are designed in strict adherence to the criteria and standards established by banks for term loans and cash credit. This ensures that our reports seamlessly fit into the bank’s internal evaluation process & minimize the chances of report rejection or delays in loan processing.</div>
+                                </div>                              
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Step 5: Coordinated Communication
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Throughout the entire process, we maintain continuous communication with both the client and the bank, acting as a liaison to address any questions or concerns from either side. This level of coordination helps to avoid miscommunication and accelerates the loan process.</div>
+                                </div>                              
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Step 6: Submission and Follow-Up
+                                  </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Once the report is completed, we assist in the submission to the bank. We ensure that any additional documentation or clarifications requested by the bank are promptly provided, further ensuring a smooth process.  </div>
+                                </div>                              
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Step 7: Post-Approval Support
+                                  </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Our service doesn’t end once the report is submitted. We continue to support the client post-approval, assisting with disbursement of funds, compliance with loan conditions, and monitoring for ongoing reporting requirements to the bank. </div>
+                                </div>                              
+                              </div>
+                          </div>
+                          <div class="mb-3"></div>
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <div class="stats-item d-flex">
+                                    <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                                    <div>
+                                        <span data-purecounter-start="0" data-purecounter-end="1900"
+                                            data-purecounter-duration="1" class="purecounter"></span>
+                                            <p><strong>Project reports delivered </strong> <span>in last 3 years referred by over 80+ bankers and chartered accountants.</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Stats Item -->
+
+                            <div class="col-lg-6">
+                                <div class="stats-item d-flex">
+                                    <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                                    <div>
+                                        <span data-purecounter-start="0" data-purecounter-end="80"
+                                            data-purecounter-duration="1" class="purecounter"></span>
+                                            <p><strong>Different types of business sectors </strong> <span>for which reports prepared.</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Stats Item -->
+
+                            <div class="col-lg-6">
+                                <div class="stats-item d-flex">
+                                    <i class="bi bi-headset flex-shrink-0"></i>
+                                    <div>
+                                        <span data-purecounter-start="0" data-purecounter-end="20"
+                                            data-purecounter-duration="1" class="purecounter"></span>
+                                            <p><strong>Different banks </strong> <span>for which reports delivered</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Stats Item -->
+
+                            <div class="col-lg-6">
+                                <div class="stats-item d-flex">
+                                    <i class="bi bi-people flex-shrink-0"></i>
+                                    <div>
+                                        <span data-purecounter-start="0" data-purecounter-end="12"
+                                            data-purecounter-duration="1" class="purecounter"></span>
+                                            <p><strong>Years of experience </strong> <span>in banking and finance sector.</span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Stats Item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Stats Section -->
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section dark-background">
+            <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="" />
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                      <h3>Saul Goodman</h3>
+                      <h4>CEO &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>The professionalism and expertise of this team are unparalleled. Their deep knowledge of financial strategies and banking insights have been instrumental in guiding our company's growth and stability. Their advice is not only accurate but also insightful, making complex financial decisions much simpler for us.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                      <h3>Sara Wilsson</h3>
+                      <h4>Accountant</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Working with this team has been a game-changer for our financial planning. Their extensive experience and strategic approach have provided us with clear, actionable advice that has significantly improved our financial health. They combine technical expertise with a personal touch that is rare to find.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                      <h3>Jena Karlis</h3>
+                      <h4>Manager</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Their extensive background in both accounting and banking has given us a unique edge. They offer comprehensive solutions that address both our financial and operational needs. Their attention to detail and proactive approach have made them an invaluable partner in our business journey.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                      <h3>Matt Brandon</h3>
+                      <h4>Freelancer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>The depth of experience this team brings is evident in every interaction. They’ve helped us navigate complex financial landscapes with ease and confidence. Their strategic insights and dedication to our success have truly set them apart from other advisors we've worked with.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                      <h3>CA</h3>
+                      <h4>Entrepreneur</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Exceptional expertise and unparalleled professionalism. This team’s blend of Chartered Accountancy and banking experience ensures that every financial decision is backed by a wealth of knowledge and practical insight. They have consistently exceeded our expectations and delivered results that matter.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+              </div>
+              <div class="swiper-pagination"></div>
+    
+                </div>
+            </div>
+        </section>
+        <!-- /Testimonials Section -->
+
+        <!-- Team Section -->
+        <section id="team" class="team section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Team</h2>
+                <p>our Team</p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/3d.jpg" class="img-fluid" alt="" />
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Raunak Heda</h4>
+                                <span>CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/3d.jpg" class="img-fluid" alt="" />
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Geet Heda</h4>
+                                <span>CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/3d.jpg" class="img-fluid" alt="" />
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Nikhil Malaiyya</h4>
+                                <span>CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/3d.jpg" class="img-fluid" alt="" />
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Keshav Kalani</h4>
+                                <span>CA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/3d.jpg" class="img-fluid" alt="" />
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Akshay Laddha</h4>
+                                <span>CA</span>
+                            </div>
+                        </div>
+                    </div> <!-- End Team Member -->
+                </div>
+            </div>
+        </section>
+        <!-- /Team Section -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p>Contact Us</p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119270.43489738641!2d77.67934327569932!3d20.90422782069184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6a4a67774bc15%3A0x3c7b3f78ca4f9635!2sAmravati%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1727161817051!5m2!1sen!2sin"
+                        style="border: 0; width: 100%; height: 270px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- End Google Maps -->
+
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Amravati</p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+91 9922418955</p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>connect@msmereport.com</p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+                    </div>
+
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                            data-aos-delay="200">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
+                                        required="" />
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
+                                        required="" />
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                        required="" />
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                        required=""></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">
+                                        Your message has been sent. Thank you!
+                                    </div>
+
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Contact Form -->
+                </div>
+            </div>
+        </section>
+        <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+       
+        <div class="copyright">
+            <div class="container text-center">
+                <p>
+                    © <span>Copyright</span>
+                    <strong class="px-1 sitename">MSME Report</strong>
+                    <span>All Rights Reserved</span>
+                </p>
+                <div class="credits">                 
+                    Designed by <a>@Mayur Jain</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
