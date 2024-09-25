@@ -53,8 +53,20 @@
         }
         .accordion-body ul li:hover {
             background-color: #000; /* Darker gray on hover */
-            color: #ffc451;
+            color: #ffc451 !important;
         }
+        
+
+.logo-text{
+  
+    margin: 0;       
+    color: #ffc451 !important;
+}
+
+.logo-text-sm {
+    color: #ffc451 !important;
+    margin: 5px 0 0 0;
+}
     </style>
     <script>
         function toggleList() {
@@ -77,8 +89,12 @@
             <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1 class="sitename">MSME Report</h1>
-                <span>.</span>
+                <div class="logo-container">
+                    <div >
+                        <h1 class="logo-text text-uppercase fs-1 text-center fw-bold ">MSME</h1>
+                        <p class="logo-text-sm text-uppercase fs-6">Project Report | CMA | LOANS | SUBSIDIES</p>
+                    </div>
+                </div>
             </a>
 
             <nav id="navmenu" class="navmenu">
